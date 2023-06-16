@@ -6,10 +6,10 @@
  * main - entry point
  *
  * Return: 0 (Success)
- */
+*/
 int main(void)
 {
-	int n;
+	int n, digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
